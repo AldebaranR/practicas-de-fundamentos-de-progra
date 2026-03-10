@@ -10,7 +10,7 @@ void print_float(const char *name, float v) {
     printf("%s = %f\n", name, v);
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // =============================

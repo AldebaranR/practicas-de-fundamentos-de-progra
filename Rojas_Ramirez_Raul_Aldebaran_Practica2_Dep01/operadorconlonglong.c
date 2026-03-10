@@ -9,7 +9,7 @@ void print_ll(const char *name, long long v) {
     printf("%s = %lld\n", name, v);
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // =============================

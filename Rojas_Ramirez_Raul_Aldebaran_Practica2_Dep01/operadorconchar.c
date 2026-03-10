@@ -11,7 +11,7 @@ void print_uchar(const char *name, unsigned char v) {
     printf("\n");
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // === Datos de entrada (NO se modifican) ===

@@ -9,7 +9,7 @@ void print_short(const char *name, short v) {
     printf("%s = %d\n", name, (int)v);
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // === Datos de entrada (NO se modifican) ===

@@ -10,7 +10,7 @@ void print_ld(const char *name, long double v) {
     printf("%s = %.15Lf\n", name, v);
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // =============================

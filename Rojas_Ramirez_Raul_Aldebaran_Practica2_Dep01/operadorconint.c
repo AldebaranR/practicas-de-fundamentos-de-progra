@@ -12,7 +12,7 @@ void print_int(const char *name, int v) {
     printf("\n");
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     srand((unsigned)time(NULL));
 
     // === Variables declaradas al inicio (como pide la practica) ===
